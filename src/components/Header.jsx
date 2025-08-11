@@ -1,4 +1,4 @@
-import { AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { FiGithub, FiTwitter, FiLinkedin, FiMenu, FiX } from 'react-icons/fi';
 import { useState } from 'react';
 
