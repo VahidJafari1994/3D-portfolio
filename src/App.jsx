@@ -9,6 +9,7 @@ import HeroSection from './components/HeroSection';
 import ProjectsSection from './components/ProjectsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
+import ProgressBar from './components/ProgressBar';
 
 export default function App() {
   useEffect(() => {
@@ -33,6 +34,7 @@ export default function App() {
       <ProjectsSection />
       <ContactSection />
       <Footer />
+      <ProgressBar />
     </>
   );
 }
